@@ -1,0 +1,236 @@
+[
+	{
+		"type": "flex",
+		"altText": "Hello World",
+		"contents": {
+			"type": "bubble",
+			"styles": {
+				"footer": {
+					"separator": true
+				}
+			},
+			"body": {
+				"type": "box",
+				"layout": "vertical",
+				"contents": [
+					{
+						"type": "text",
+						"text": "HELLO WORLD",
+						"weight": "bold",
+						"size": "xl",
+						"align": "center",
+						"color": "#3888ff",
+						"margin": "md"
+					},
+					{
+						"type": "separator",
+						"margin": "xl"
+					},
+					{
+						"type": "box",
+						"layout": "vertical",
+						"margin": "xxl",
+						"spacing": "sm",
+						"contents": [
+							{
+								"type": "text",
+								"text": "Price List",
+								"weight": "bold",
+								"color": "#aaaaaa",
+								"size": "sm"
+							},
+							{
+								"type": "box",
+								"layout": "horizontal",
+								"contents": [
+									{
+										"type": "text",
+										"text": "Selfbot Premium",
+										"size": "sm",
+										"color": "#555555",
+										"flex": 3
+									},
+									{
+										"type": "text",
+										"text": "25k",
+										"size": "sm",
+										"color": "#111111",
+										"align": "end"
+									},
+									{
+										"type": "text",
+										"text": "$2.99",
+										"size": "sm",
+										"color": "#111111",
+										"align": "end"
+									}
+								]
+							},
+							{
+								"type": "box",
+								"layout": "horizontal",
+								"contents": [
+									{
+										"type": "text",
+										"text": "Spotify Premium",
+										"size": "sm",
+										"color": "#555555",
+										"flex": 3
+									},
+									{
+										"type": "text",
+										"text": "20k",
+										"size": "sm",
+										"color": "#111111",
+										"align": "end"
+									},
+									{
+										"type": "text",
+										"text": "$1.40",
+										"size": "sm",
+										"color": "#111111",
+										"align": "end"
+									}
+								]
+							},
+							{
+								"type": "box",
+								"layout": "horizontal",
+								"contents": [
+									{
+										"type": "text",
+										"text": "Protect 6 Bots",
+										"size": "sm",
+										"color": "#555555",
+										"flex": 3
+									},
+									{
+										"type": "text",
+										"text": "100k",
+										"size": "sm",
+										"color": "#111111",
+										"align": "end"
+									},
+									{
+										"type": "text",
+										"text": "$10.0",
+										"size": "sm",
+										"color": "#111111",
+										"align": "end"
+									}
+								]
+							},
+							{
+								"type": "box",
+								"layout": "horizontal",
+								"contents": [
+									{
+										"type": "text",
+										"text": "Protect 12 Bots",
+										"size": "sm",
+										"color": "#555555",
+										"flex": 3
+									},
+									{
+										"type": "text",
+										"text": "150k",
+										"size": "sm",
+										"color": "#111111",
+										"align": "end"
+									},
+									{
+										"type": "text",
+										"text": "$15.0",
+										"size": "sm",
+										"color": "#111111",
+										"align": "end"
+									}
+								]
+							},
+							{
+								"type": "separator",
+								"margin": "xxl"
+							}
+						]
+					},
+					{
+						"type": "box",
+						"layout": "vertical",
+						"margin": "xxl",
+						"spacing": "sm",
+						"contents": [
+							{
+								"type": "text",
+								"text": "Info EN",
+								"weight": "bold",
+								"color": "#aaaaaa",
+								"size": "sm"
+							},
+							{
+								"type": "box",
+								"layout": "horizontal",
+								"contents": [
+									{
+										"type": "text",
+										"text": "All the prices above are valid for a month, except for Spotify it's valid for a lifetime. Especially for the protection bot, you can use your own VPS, and give us root permission to set it up",
+										"wrap": true,
+										"size": "sm"
+									}
+								]
+							},
+							{
+								"type": "text",
+								"text": "Info ID",
+								"weight": "bold",
+								"color": "#aaaaaa",
+								"size": "sm"
+							},
+							{
+								"type": "box",
+								"layout": "horizontal",
+								"contents": [
+									{
+										"type": "text",
+										"text": "Semua harga diatas berlaku sebulan kecuali spotify berlaku selamanya. Terkhusus untuk bot protect jika ingin menggunakan vps sendiri, anda bisa menyiapkan dan memberikan user root vps anda",
+										"wrap": true,
+										"size": "sm"
+									}
+								]
+							},
+							{
+								"type": "separator",
+								"margin": "xxl"
+							}
+						]
+					},
+					{
+						"type": "box",
+						"layout": "vertical",
+						"margin": "xxl",
+						"spacing": "sm",
+						"contents": [
+							{
+								"type": "button",
+								"style": "primary",
+								"action": {
+									"type": "uri",
+									"label": "ORDER NOW",
+									"uri": "https://line.me/ti/p/~belongtoyuuki"
+								}
+							},
+							{
+								"type": "button",
+								"style": "secondary",
+								"action": {
+									"type": "uri",
+									"label": "LINE SQUARE",
+									"uri": "https://line.me/ti/g2/JGUODBE4RE"
+								}
+							}
+						]
+					}
+				]
+			}
+		}
+	}
+]

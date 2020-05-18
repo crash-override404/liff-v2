@@ -38,9 +38,7 @@ function initVConsole() {
         onReady: function() {
             console.log("vConsole is ready.");
         },
-        onClearLog: function() {
-            console.log("on clearLog");
-        }
+        onClearLog: function() {}
     });
 }
 
@@ -118,6 +116,9 @@ function initContent(type) {
             document.getElementById("type").value = "choose";
         }
         isLoggedIn = false;
+    }
+    if (getParameterByName("share") == "yes") {
+        document.getElementById("share").checked = true;
     }
     if (getParameterByName("liffId")) {
         liffId = getParameterByName("liffId");
@@ -419,6 +420,15 @@ function sendLiffMessage() {
 function sendMessages(messages) {
     if (!liff.isInClient()) {
         sendAlertIfNotInClient()
+    } else if (document.getElementById("share").checked == true) {
+        console.info("Start initializing share message");
+        if (liff.isApiAvailable("shareTargetPicker")) {
+            liff.shareTargetPicker(messages).then(() => {
+                console.log("Share message was launched");
+            }).catch((err) => {
+                console.error("Share message failed", err);
+            });
+        }
     } else {
         console.info("Start sending message");
         liff.sendMessages(messages).then(() => {

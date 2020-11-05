@@ -263,7 +263,7 @@ function sendLiffMessage() {
                         aspectMode: "cover",
                         action: {
                             type: "uri",
-                            uri: "line://app/1602289196-4xoE1JEr?auto=yes&type=image&downloadUrl=" + profile.pictureUrl + "&previewUrl=" + profile.pictureUrl
+                            uri: "https://line.me/R/app/1655208881-KEroXYvl?auto=yes&type=image&downloadUrl=" + profile.pictureUrl + "&previewUrl=" + profile.pictureUrl
                         }
                     },
                     body: {
@@ -303,8 +303,8 @@ function sendLiffMessage() {
                                 color: "#02afff",
                                 action: {
                                     type: "uri",
-                                    label: "Square",
-                                    uri: "https://line.me/ti/g2/JGUODBE4RE"
+                                    label: "ACode44",
+                                    uri: "https://line.me/R/ti/p/~fahmiadrn2nd"
                                 },
                                 flex: 1
                             },
@@ -315,7 +315,7 @@ function sendLiffMessage() {
                                 action: {
                                     type: "uri",
                                     label: "Profile",
-                                    uri: "line://app/1602289196-4xoE1JEr?type=profile"
+                                    uri: "https://line.me/R/app/1655208881-KEroXYvl?type=profile"
                                 },
                                 flex: 2
                             },
@@ -375,7 +375,7 @@ function sendLiffMessage() {
                         imageUrl: imageUrl,
                         action: {
                             type: "uri",
-                            uri: "line://shop/sticker/detail/" + packageId
+                            uri: "https://line.me/R/shop/sticker/detail/" + packageId
                         }
                     }]
                 }

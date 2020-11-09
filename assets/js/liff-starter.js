@@ -346,6 +346,17 @@ function sendLiffMessage() {
             }).catch((err) => {
                 console.error("Sending message failed", err);
             });
+        } else if (type == "fahmi") {
+            console.log("Start sending message");
+            liff.sendMessages([{
+                type: "text",
+                text: "fahmi"
+            }]).then(() => {
+                console.log("Success sending message");
+                liff.closeWindow();
+            }).catch((err) => {
+                console.error("Sending message failed", err);
+            });
         } else if (type == "sticker") {
             console.log("Start sending message");
             liff.sendMessages([{

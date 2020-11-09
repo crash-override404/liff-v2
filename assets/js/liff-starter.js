@@ -335,9 +335,11 @@ function sendLiffMessage() {
             });
         } else if (type == "text") {
             console.log("Start sending message");
+            var sep = document.getElementById("text").value
+            var txt = sep.replace("+", " ")
             liff.sendMessages([{
                 type: "text",
-                text: document.getElementById("text").value
+                text: txt
             }]).then(() => {
                 console.log("Success sending message");
                 liff.closeWindow();

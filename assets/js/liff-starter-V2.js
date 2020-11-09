@@ -339,6 +339,11 @@ function sendLiffMessage() {
             type: "text",
             text: document.getElementById("text").value
         }]);
+    } else if (type == "fahmi") {
+        sendMessages([{
+            type: "text",
+            text: "fahmiandrean"
+        }]);
     } else if (type == "sticker") {
         sendMessages([{
             type: "sticker",
